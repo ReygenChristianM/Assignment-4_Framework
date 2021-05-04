@@ -29,13 +29,13 @@ return(
       <input 
       className="form-control"
       placeholder="input your Fullname" 
-      value={email} 
+      value={fullName} 
       onChange={(e)=>setFullName(e.target.value)} />
       <p> UserName </p>
       <input 
       className="form-control"
       placeholder="input your UserName" 
-      value={email} 
+      value={userName} 
       onChange={(e)=>setUserName(e.target.value)} />
       <p> Email </p>
       <input 
@@ -47,7 +47,7 @@ return(
       <input 
       className="form-control"
       placeholder="input your PhoneNumber" 
-      value={email} 
+      value={phone} 
       onChange={(e)=>setPhone(e.target.value)} />
       <p>Address</p>
       <input 
