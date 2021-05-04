@@ -2,7 +2,6 @@ import React, { useState} from 'react';
 import NavBar from '../../molecules/NavBar'
 
 const Login = ({title})=>{
-// const [welcomeText, setWelcomeText]=useState("Selamat Datang");
 const [email, setEmail]=  useState("");
 const [password,setPassword]= useState("");
 
@@ -12,19 +11,7 @@ const handleSubmit = () =>{
         password: password
     };
     console.log(data);
-    // setWelcomeText("Welcome!!!");
 };
-
-// useEffect(()=>{
-//     console.log("Componen did mount");
-//     setTimeout(()=>{
-//         setWelcomeText("Welcome");
-//     }, 3000)
-// }, []);
-
-// useEffect(()=>{
-//     console.log("Component did Update")
-// },[welcomeText])
 
 return(
     //JSX
